@@ -3,5 +3,19 @@ body {
     font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
 }
 ul {
+    padding-left: 20px;
     list-style-type: none;
+    display: flex;  
+    flex-direction: row;
+}
+li {
+    padding :10px;
+}
+.about-me h1 {
+   margin-bottom: 10px;
+}
+.about-me img {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 10px;
 }
