@@ -11,11 +11,23 @@ ul {
 li {
     padding :10px;
 }
-.about-me h1 {
-   margin-bottom: 10px;
+.section1 {display: block;}
+.title {
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
-.about-me img {
+.name {
+    font-size: small;
+    float: right;
+    padding-right: 100px;
+}
+.section1 img {
+    float: left;
   max-width: 400px;
   max-height: 400px;
   padding: 10px;
+}
+.info {
+padding: 10px;
+padding-top: 50px;
 }
