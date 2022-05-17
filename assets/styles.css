@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+* {
+  box-sizing: border-box ;}
 body {
     font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
 }
@@ -23,8 +25,8 @@ li {
 }
 .section1 img {
     float: left;
-  max-width: 400px;
-  max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
   padding: 10px;
 }
 .info {
