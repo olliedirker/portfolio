@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Oliver Dirker's Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://olliedirker.github.io/portfolio/" class="link"
+          >Git Hub: olliedirker</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+        <img class = profile-img src="./assets/media/48F11812-102D-4EC0-984B-C0131EE72974_1_201_a.jpeg" alt="">
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">Oliver Dirker</span></h1>
+        <h2 class="about__role">Full-Stack Web Developer</h2>
+        <p class="about__desc">
+          I'm Ollie a full stack web developer in learning. I enjoy being
+          creative and enjoy the challenges that programming brings.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://my.indeed.com/p/oliverd-pr30zni">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/olliedirker"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B79%2BD6vrERaejQ7cuzR4iVA%3D%3D"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>You in the Lou.</h3>
+            <p class="project__description">
+              As a transplant to St. Louis, or a tourist, or a local looking to
+              find more to love about my city; I want to be able to look up
+              local events posted by locals. I would also like these posts to
+              have a social media feel to them so I can interact with other
+              users and make new friends along the way!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Handlebars.js</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">MySQL</li>
+              <li class="project__stack-item">express-session</li>
+            </ul>
+
+            <a
+              href="https://github.com/olliedirker/You-in-the-Lou"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://gp-2.herokuapp.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Tourish</h3>
+            <p class="project__description">
+              Feeling like running around in a new city? or not? We call that
+              tourish. Use this website to fetch and organize info about the
+              place you're touring in.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">JQuery</li>
+              <li class="project__stack-item">Bulma</li>
+            </ul>
+
+            <a
+              href="https://github.com/samsiebert/group-project-1"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://samsiebert.github.io/group-project-1/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>The Work Day Scheduler</h3>
+            <p class="project__description">
+              Uses javascript to run through each time of the day by hour and
+              assignes ids and classes based on the css file of the pre
+              assignment info and then added new ones wiht JS to color them
+              based on the hour of the day. added certain css elements, used
+              javascript to make the counter on the top of the page and set it
+              to be a live per second clock.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/olliedirker/work-day-scheduler"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://olliedirker.github.io/work-day-scheduler/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Git It Done</h3>
+            <p class="project__description">
+              A website where you can type in any github user and it will make an API call to the users repositories and retrieve the issues, solved and unsolved.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/olliedirker/git-it-done"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://olliedirker.github.io/git-it-done/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Development</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+        </ul>
+        <h2 class="section__title">Frameworks</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">Bulma</li>
+          <li class="skills__list-item btn btn--plain">jQuery</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">Handlebars.js</li>
+          <li class="skills__list-item btn btn--plain">Express</li>
+          <li class="skills__list-item btn btn--plain">Mongoose</li>
+        </ul>
+        <h2 class="section__title">Software</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">VS Code</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">MySQL Workbench</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:olliedirker@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://olliedirker.github.io/portfolio/"
+        class="link footer__link"
+      >
+        Created By Oliver Dirker
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
